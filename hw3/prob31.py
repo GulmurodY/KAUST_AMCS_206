@@ -1,10 +1,11 @@
-#Explanation of the graph:
+"""
+Explanation of the graph:
 
-# The Gauss-Seidel method converges faster than the Jacobi method.
-# The Gauss-Seidel method uses updated values within the same iteration,
-# which leads to faster convergence compared to the Jacobi method that
-# uses only values from the previous iteration.
-
+The Gauss-Seidel method converges faster than the Jacobi method.
+The Gauss-Seidel method uses updated values within the same iteration,
+which leads to faster convergence compared to the Jacobi method that
+uses only values from the previous iteration.
+"""
 
 import numpy as np
 import os
